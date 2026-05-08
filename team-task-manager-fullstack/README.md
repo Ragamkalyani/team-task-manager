@@ -1,48 +1,36 @@
 # Team Task Manager Full-Stack Web App
 
+## Project Overview
 A role-based task management system where admins can create projects, assign tasks, and track progress. Members can view and update assigned tasks.
 
 ## Features
-- Signup and Login
-- JWT Authentication
-- Role-based access control: Admin / Member
+- Authentication (Signup/Login)
+- Role-based access (Admin/Member)
 - Project management
-- Task creation and assignment
-- Task status tracking
-- Dashboard with total, pending, in-progress, completed and overdue tasks
-- Responsive UI
+- Task assignment
+- Dashboard for tracking tasks and status
 
-## Tech Stack
-Frontend: React, Vite, Axios, CSS
-Backend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcryptjs
+## Technologies Used
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Vercel Deployment
 
-## Run Locally
-Backend:
-```bash
-cd backend
-npm install
-copy .env.example .env
-npm run dev
-```
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
 
-Frontend:
-```bash
-cd frontend
-npm install
-copy .env.example .env
-npm run dev
-```
+## Live Application
+https://team-task-manager-eslz-git-main-ragamkalyanis-projects.vercel.app
 
-First create an admin account from Signup page, then login and create projects/tasks.
+## GitHub Repository
+https://github.com/Ragamkalyani/team-task-manager
 
 ## Deployment
-Backend env variables:
-```env
-MONGO_URI=your_mongodb_connection_url
-JWT_SECRET=your_secret
-PORT=5000
-```
-Frontend env variable:
-```env
-VITE_API_URL=https://your-backend-url/api
-```
+- Frontend: Vercel
+- Backend: Railway
+
+## Author
+Ragam Kalyani
